@@ -81,10 +81,10 @@ const levels = [
     "W...........................W........................W........................W........................W........................W........................W.............G.W",
     "W...........WWWWWWWWWWWW....v....WWWWWWWWWWWWWWWW....v....WWWWWWWWWWWWWWWW....v....WWWWWWWWWWWWWWWW....v....WWWWWWWWWWWWWWWW....v....WWWWWWWWWWWWWWWW....v....WWWWWWWWWWWW",
     "W...........WWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWW",
-    "W.....^.....WWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWW",
-    "WWWW..W..WWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWW",
-    "W.....v.....WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
-    "W^^^^^^^^^^^WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+    "W.....^.....WWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWWWWWW.........WWWWWWWWWWWW",
+    "WWWW..W..WWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWW",
+    "W.....v.....WWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWWWWWW...WWW...WWWWWWWWWWWW",
+    "W^^^^^^^^^^^WWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWWWWWW^^^WWW^^^WWWWWWWWWWWW",
     "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
     ],
     // NIVEL 4
@@ -92,14 +92,14 @@ const levels = [
         "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
         "W...............vvvvvvvvvvvvvvvvWWWWWWWvvvvvvvvvWWWWWWWvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvWWWWWWWvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvWWWWWW",
         "W.@.............................WWWWWWW.........WWWWWWW................................WWWWWWW..................................................WWWWWWW.............WWWWWW",
-        "WWWWWWW.........................WWWWWWW.........WWWWWWW.................WWWWWWWWW......WWWWWWW..............................WWWWWWWW................................WWWWWW",
+        "WWWWWWW.........................WWWWWWW.........WWWWWWW.WWWW............WWWWWWWWWWWWW..WWWWWWW..............................WWWWWWWW................................WWWWWW",
         "WWWWWWW.........................................WWWWWWW................................WWWWWWW..............WWWWWWWW.....................................................W",
         "WWWWWWW....WWWWWW...............................WWWWWWW................................WWWWWWW...........................................................................W",
         "WWWWWWW.........................WWWWWWW.........WWWWWWW................................WWWWWWW.........................................................................G.W",
-        "WWWWWWW.........................WWWWWWW.........WWWWWWW.....WWWWWWWW................................................WWWWWWWW........................................WWWWWW",
-        "WWWWWWW.............WWWWWWW.....WWWWWWW.........WWWWWWW.............................................................................................................WWWWWW",
-        "WWWWWWW.........................WWWWWWW.........WWWWWWW................................WWWWWWW...........................................................WWWWWWW....WWWWWW",
-        "WWWWWWW.........................WWWWWWW................................................WWWWWWW.....WWWWWWWW.........................................................WWWWWW",
+        "WWWWWWW.........................WWWWWWW.........WWWWWWW.....WWWWWWWWWWWW............................................WWWWWWWW........................................WWWWWW",
+        "WWWWWWW.............WWWWWWWWWW..WWWWWWW.........WWWWWWW.............................................................................................................WWWWWW",
+        "WWWWWWW.........................WWWWWWW...WWWW..WWWWWWW................................WWWWWWW...........................................................WWWWWWWWW..WWWWWW",
+        "WWWWWWW.........................WWWWWWW................................................WWWWWWW..WWWWWWWWWWW.........................................................WWWWWW",
         "WWWWWWW.........................WWWWWWW................................................WWWWWWW........................................WWWWWWWWW.....................WWWWWW",
         "WWWWWWW^^^^^^^^^^^^^^^^^^^^^^^^^WWWWWWW^^^^^^^^^WWWWWWW^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^WWWWWWW^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^WWWWWW",
         "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
@@ -518,7 +518,7 @@ function update(dt) {
 
     // Meta
     if (goal && playerHitbox.intersectsBox(goal.box)) {
-        playSfx('goal');
+  
         currentLevel++;
         if (currentLevel < levels.length) {
             gravityDir = -1;
@@ -543,7 +543,7 @@ function respawn() {
     deathCount++;
     gravityDir = -1;
     triggerDeathFlash();
-    playSfx('death');
+
     loadLevel(currentLevel);
     updateHUD();
 }
@@ -597,7 +597,7 @@ function startGame(levelIdx) {
     gameRunning = true;
 
     initAudio();
-    playMusic();
+
 }
 
 // ============================================================
@@ -636,7 +636,7 @@ function setupInputs() {
         if ((e.code === 'Space' || e.code === 'ArrowUp' || e.code === 'KeyW') && canFlip) {
             gravityDir *= -1;
             canFlip = false;
-            playSfx('flip');
+
         }
         if (e.code === 'Escape' && gameRunning) {
             showOverlay('PAUSA', 'CONTINUAR', () => { gameRunning = true; });
@@ -689,12 +689,6 @@ function init() {
         document.getElementById('level-select').style.display = 'flex';
     });
 
-    document.getElementById('btn-sound').addEventListener('click', function() {
-        soundEnabled = !soundEnabled;
-        this.textContent = soundEnabled ? 'SONIDO: ON' : 'SONIDO: OFF';
-        if (!soundEnabled) stopMusic();
-        else { initAudio(); playMusic(); }
-    });
 
     document.getElementById('btn-back').addEventListener('click', () => {
         document.getElementById('level-select').style.display = 'none';
