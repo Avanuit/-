@@ -2,15 +2,69 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>VVVVVV 2.5D - Diagonal View</title>
+    <title>REDBALL 2.5D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="ui">
-        <div id="room-name">SALA: THE DIMENSION V</div>
-        <div id="msg">¡META ALCANZADA!</div>
+
+<!-- MENU PRINCIPAL -->
+<div id="main-menu">
+    <canvas id="menu-bg"></canvas>
+    <div id="menu-content">
+        <div id="logo-wrapper">
+            <div id="logo-glow"></div>
+            <div id="logo-ball"></div>
+            <h1 id="logo-title">REDBALL</h1>
+            <p id="logo-sub">2 . 5 D</p>
+        </div>
+        <nav id="menu-nav">
+            <button class="menu-btn" id="btn-play">JUGAR</button>
+            <button class="menu-btn" id="btn-levels">NIVELES</button>
+            <button class="menu-btn" id="btn-sound" data-on="true">SONIDO: ON</button>
+        </nav>
+        <div id="menu-footer">
+            <span>WASD / FLECHAS para mover</span>
+            <span>ESPACIO para invertir gravedad</span>
+        </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="main.js"></script>
+</div>
+
+<!-- SELECTOR DE NIVELES -->
+<div id="level-select" style="display:none;">
+    <canvas id="ls-bg"></canvas>
+    <div id="ls-content">
+        <h2 id="ls-title">SELECCIONA NIVEL</h2>
+        <div id="ls-grid"></div>
+        <button class="menu-btn" id="btn-back">VOLVER</button>
+    </div>
+</div>
+
+<!-- JUEGO -->
+<div id="game-wrapper" style="display:none;">
+    <div id="hud">
+        <div id="hud-left">
+            <span id="hud-level">NIVEL 1</span>
+            <span id="hud-room"></span>
+        </div>
+        <div id="hud-right">
+            <span id="hud-deaths">MUERTES: 0</span>
+        </div>
+    </div>
+    <canvas id="game-canvas"></canvas>
+    <div id="overlay-msg" style="display:none;">
+        <div id="overlay-box">
+            <p id="overlay-text"></p>
+            <button class="menu-btn" id="btn-overlay-action"></button>
+            <button class="menu-btn" id="btn-overlay-menu">MENU</button>
+        </div>
+    </div>
+    <div id="death-flash"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
